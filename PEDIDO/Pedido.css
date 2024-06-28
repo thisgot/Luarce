@@ -221,7 +221,7 @@ input::placeholder {
     justify-content: center;
 }
 
-.pix button, .debit button, .credit button, .paymentSlip button {
+.pix button, .debit button, .credit button, .paymentSlip a {
     width: 50%;
     border-radius: 10px;
     border: none;

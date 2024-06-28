@@ -17,19 +17,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
      <!-- FAVICONs .SVG (16 a 512) -->
     <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON16X16.svg" sizes="16x16" type="image/svg">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON32X32.svg" sizes="32x32" type="image/svg">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON48X48.svg" sizes="48x48" type="image/svg">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON64X64.svg" sizes="64x64" type="image/svg">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON128X128.svg" sizes="128x128" type="image/svg">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON256X256.svg" sizes="256x256" type="image/svg">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON512X512.svg" sizes="512x512" type="image/svg">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON32X32.svg" sizes="32x32" type="image/svg">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON48X48.svg" sizes="48x48" type="image/svg">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON64X64.svg" sizes="64x64" type="image/svg">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON128X128.svg" sizes="128x128" type="image/svg">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON256X256.svg" sizes="256x256" type="image/svg">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON512X512.svg" sizes="512x512" type="image/svg">
     <!-- FAVICONs .ICO (16 a 256) -->
-    <link rel="icon" href="/Luarce/Imagens/FAVICON16X16.ico" sizes="16x16" type="image/x-ico">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON32X32.ico" sizes="32x32" type="image/x-ico">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON48X48.ico" sizes="48x48" type="image/x-ico">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON64X64.ico" sizes="64x64" type="image/x-ico">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON128X128.ico" sizes="128x128" type="image/x-ico">
-    <link rel="icon" href="/Luarce/Imagens/FAVICON256X256.ico" sizes="256x256" type="image/x-ico">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON16X16.ico" sizes="16x16" type="image/x-ico">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON32X32.ico" sizes="32x32" type="image/x-ico">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON48X48.ico" sizes="48x48" type="image/x-ico">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON64X64.ico" sizes="64x64" type="image/x-ico">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON128X128.ico" sizes="128x128" type="image/x-ico">
+    <link rel="icon" href="/Luarce/Imagens/FAVICON/FAVICON256X256.ico" sizes="256x256" type="image/x-ico">
     <!-- Link do .CSS da página -->
     <link rel="stylesheet" href="/Luarce/PEDIDO/Pedido.css">
     <!-- Preload das imagens utilizadas na página -->
@@ -198,36 +198,25 @@
                     </div>
                     <div class="paymentButtons">
                         <div class="pix">
-                            <button id="pixBtn">Pix</button>
+                            <s href="/Luarce/PAGAMENTOS/PagamentoPix" id="pixBtn">Pix</s>
                         </div>
                         <div class="pixPercent">
                             <p>10% no PIX</p>
                         </div>
                         <br>
                         <div class="debit">
-                            <button id="debitBtn" type="button">Débito</button>
+                            <a href="/Luarce/PAGAMENTOS/PagamentoDebito" id="debitBtn" type="button">Débito</a>
                         </div>
                         <br>
                         <div class="credit">
-                            <button id="creditBtn" type="button">Crédito</button>
+                            <a href="/Luarce/PAGAMENTOS/PagamentoCredito" id="creditBtn" type="button">Crédito</a>
                         </div>
                         <br>
                         <div class="paymentSlip">
-                            <button>Boleto</button>
+                            <a href="/Luarce/PAGAMENTOS/PagamentoBoleto">Boleto</a>
                         </div>
                     </div>
                     <br>
-                    <div class="cardDetails" id="cardDetails" style="display: none;">
-                        <label for="cardNumber">Número do Cartão</label>
-                        <input type="text" id="cardNumber" maxlength="12">
-                        <label for="cardName">Nome no Cartão</label>
-                        <input type="text" id="cardName">
-                        <label for="cardCVC">CVC</label>
-                        <input type="text" id="cardCVC" maxlength="3">
-                        <label for="cardExpiry">Data de Validade (MM/AA)</label>
-                        <input type="text" id="cardExpiry" placeholder="MM/AA">
-                        <button id="confirmPaymentBtn">Confirmar Pagamento</button>
-                    </div>
             </div>
         </div>
     </main>
@@ -253,7 +242,7 @@
             <!-- Links das redes -->
             <div class="d-flex SimbolosFooter">
                 <a><img class="Email" src="/Luarce/Imagens/Email.svg" alt=""></a>
-                <a class="Gmail">Luarce@gmail.com</a>
+                <a class="Gmail">luarcevelas@gmail.com</a>
                 <a href="https://www.instagram.com/luarcevelas/" target="_blank" rel="noopener noreferrer"><img class="Instagram" src="/Luarce/Imagens/Instagram.svg" alt=""></a>
                 <a href="https://www.tiktok.com/@luarcevelas" target="_blank" rel="noopener noreferrer"><img class="Tiktok" src="/Luarce/Imagens/TikTok.svg" alt=""></a>
                 <a href="https://api.whatsapp.com/send/?phone=554792072003&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"><img class="WhatsApp" src="/Luarce/Imagens/WhatsApp.svg" alt=""></a>
@@ -277,20 +266,6 @@
                 img.src = src;
             });
         }
-
-        document.addEventListener("DOMContentLoaded", function () {
-        const debitBtn = document.getElementById('debitBtn');
-        const creditBtn = document.getElementById('creditBtn');
-        const cardDetails = document.getElementById('cardDetails');
-
-        debitBtn.addEventListener('click', function () {
-            cardDetails.style.display = 'block';
-        });
-
-        creditBtn.addEventListener('click', function () {
-            cardDetails.style.display = 'block';
-        });
-    });
     
         // Preload das imagens alternativas
         preloadImages([
