@@ -292,6 +292,11 @@ main {
     flex-direction: column;
 }
 
+#download-boleto{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+
 /*-------------------------------------------------------- CSS que pertence a Pagamento Debito e Credito: -------------------------------------------------------------*/
 
 #PagamentoDebito-main {
