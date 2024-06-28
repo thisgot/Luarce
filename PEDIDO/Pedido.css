@@ -219,9 +219,6 @@ input::placeholder {
 .pix, .debit, .credit, .paymentSlip {
     display: flex;
     justify-content: center;
-}
-
-.paymentButtons div{
     width: 50%;
     border-radius: 10px;
     border: none;
