@@ -257,7 +257,7 @@ main {
 
 #PagamentoBoleto-main {
     min-height: 100%;
-    height: 1150px;
+    height: 1100px;
     justify-content: center;
     display: flex;
     flex-direction: column;
