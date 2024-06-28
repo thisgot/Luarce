@@ -295,6 +295,7 @@ main {
 #download-boleto{
     font-size: 26px;
     font-family: 'Poppins', sans-serif;
+    padding: 30px;
 }
 
 #download-boleto:hover{
