@@ -91,6 +91,19 @@
         <!-- 1 Para simular que a pessoa pagou o Pix, coloque um timer de 20 segundos para ficar nessa página, aí pode enviar direto para a página "PagamentoAprovado.html" -->
          <!-- 2 Não esquecer que o timer está literalmente na tela, então colocar ali pra ele ir abaixando o tempo conforme a pessoa está na página, quando chegar a 00:00 aí sim vai pra próxima página -->
           <!-- 3 A imagem do QRcode pode ser um aleatório que você acha aí na internet mesmo, não precisa fazer um gerador de QRcode :D -->
+        <div class="payment-container">
+            <div class="payment-h1">
+                <a>Pague com PIX</a>
+            </div>
+            <div class="div-payment">
+                <img src="/Luarce/Imagens/PagamentoQRCode.png" alt="QR-Code">
+                <a>Chave PIX: Luarce123456789</a>
+                <a>Nome: LuarceVelas</a>
+            </div>
+         </div>
+        <div id="awaiting-payment">
+            <a><p>Aguarde a aprovação do pagamento...</p></a>
+        </div>
 
     </main>
 
@@ -169,7 +182,7 @@
         });
 
     </script>
-
+    <script src="PagamentoPix.js"></script>
 
 </body>
 

@@ -253,6 +253,13 @@ main {
     align-items: center;
 }
 
+#payment-pix a {
+    font-weight: bold;
+    font-size: 25px;
+    color: #505050;
+    font-family: 'Open Sans', sans-serif;
+}
+
 /*-------------------------------------------------------- CSS que pertence a Pagamento Boleto: ------------------------------------------------------------------------*/
 
 #PagamentoBoleto-main {
@@ -279,7 +286,7 @@ main {
     margin-top: 50px;
 }
 
-#div-payment{
+.div-payment{
     font-size: 15px;
     display: flex;
     justify-content: center;
@@ -287,7 +294,7 @@ main {
     flex-direction: column;
 }
 
-#div-payment div{
+.div-payment div{
     display: flex;
     flex-direction: column;
 }
@@ -295,7 +302,7 @@ main {
 #download-boleto{
     font-size: 26px;
     font-family: 'Poppins', sans-serif;
-    padding: 30px;
+    margin: 30px;
 }
 
 #download-boleto:hover{
