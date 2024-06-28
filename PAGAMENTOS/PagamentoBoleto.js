@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
     setInterval(updateTimer,1000)
 
     downloadPdf.addEventListener("click",function(){
-        timer = 6
+        timer = 6;
     })
 })
