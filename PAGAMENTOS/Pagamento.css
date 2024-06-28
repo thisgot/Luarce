@@ -258,7 +258,10 @@ main {
     font-size: 25px;
     color: #505050;
     font-family: 'Open Sans', sans-serif;
-    margin:10px;
+    margin-bottom:15px;
+}
+#payment-pix img {
+    margin-bottom:15px;
 }
 
 /*-------------------------------------------------------- CSS que pertence a Pagamento Boleto: ------------------------------------------------------------------------*/
