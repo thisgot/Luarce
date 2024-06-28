@@ -279,6 +279,19 @@ main {
     margin-top: 50px;
 }
 
+#div-payment{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div-payment div{
+    display: flex;
+    flex-direction: column;
+}
+
 /*-------------------------------------------------------- CSS que pertence a Pagamento Debito e Credito: -------------------------------------------------------------*/
 
 #PagamentoDebito-main {
