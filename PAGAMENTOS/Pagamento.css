@@ -297,6 +297,10 @@ main {
     font-family: 'Poppins', sans-serif;
 }
 
+#download-boleto:hover{
+    text-decoration: underline;
+}
+
 /*-------------------------------------------------------- CSS que pertence a Pagamento Debito e Credito: -------------------------------------------------------------*/
 
 #PagamentoDebito-main {
