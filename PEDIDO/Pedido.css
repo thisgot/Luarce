@@ -221,7 +221,7 @@ input::placeholder {
     justify-content: center;
 }
 
-#paymentButtons div{
+.paymentButtons div{
     width: 50%;
     border-radius: 10px;
     border: none;
